@@ -1,14 +1,92 @@
 [
     {
         "name": "MTV Hits",
-        "id": "Hits",
+        "id": "MTV Hits International",
         "epg": "https://epgs.vimn.com/mtv_hits_international/xmltvlegal/eng/", 
-        "logo": "https://static.elektamedia.com/ch/entch.png" 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTVHits.png" 
     }, 
     {
         "name": "MTV Live",
-        "id": "Live",
+        "id": "MTV Live International",
         "epg": "https://epgs.vimn.com/mtv_live_international/xmltvlegal/eng/", 
-        "logo": "https://static.elektamedia.com/ch/entf.png"
-    } 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTVLive.png"
+    }, 
+    {
+        "name": "MTV 80s",
+        "id": "MTV 80s",
+        "epg": "https://epgs.vimn.com/mtv_80s/xmltvlegal/eng/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTV80s.png"
+    }, 
+    {
+        "name": "MTV 90s",
+        "id": "MTV 90s",
+        "epg": "https://epgs.vimn.com/mtv_90s/xmltvlegal/eng/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTV90s.png"
+    }, 
+    {
+        "name": "MTV 00s",
+        "id": "MTV 00s",
+        "epg": "https://epgs.vimn.com/mtv_00s/xmltvlegal/eng/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTV00s.png"
+    }, 
+    {
+        "name": "Club MTV",
+        "id": "Club MTV International",
+        "epg": "https://epgs.vimn.com/club_mtv_international/xmltvlegal/eng/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/ClubMTV.png"
+    }, 
+    {
+        "name": "Paramount Network",
+        "id": "Paramount Network North",
+        "epg": "https://epgs.vimn.com/paramount_north/xmltvlegal/las/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/ParamountNetwork.png"
+    }, 
+    {
+        "name": "TeenNick",
+        "id": "TeenNick Global",
+        "epg": "https://epgs.vimn.com/teen_nick_global/xmltvlegal/las/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/TeenNick.png"
+    }, 
+    {
+        "name": "Comedy Central Brasil",
+        "id": "Comedy Central Brazil",
+        "epg": "https://epg.vimn.com/comedycentral_brazil/xmltvlegal/brp/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/ComedyCentral.png"
+    }, 
+    {
+        "name": "MTV Brasil",
+        "id": "MTV Brazil",
+        "epg": "https://epg.vimn.com/mtv_brazil/xmltvlegal/brp/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTV.png"
+    }, 
+    {
+        "name": "Nick Jr Brasil",
+        "id": "Nick Jr. Brazil",
+        "epg": "https://epg.vimn.com/nick_jr_brazil/xmltvlegal/brp/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/NickJr.png"
+    }, 
+    {
+        "name": "Nickelodeon Brasil",
+        "id": "Nickelodeon Brazil",
+        "epg": "https://epg.vimn.com/nickelodeon_brazil/xmltvlegal/brp/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/Nickelodeon.png"
+    }, 
+    {
+        "name": "Paramount Network Brasil",
+        "id": "Paramount Network Brazil",
+        "epg": "https://epg.vimn.com/paramount_brazil/xmltvlegal/brp/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/ParamountNetwork.png"
+    }, 
+    {
+        "name": "Paramount Network España",
+        "id": "Paramount Channel España",
+        "epg": "https://epg.vimn.com/paramount_brazil/xmltvlegal/brp/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/ParamountNetwork.png"
+    }, 
+    {
+        "name": "MTV Hits Francia",
+        "id": "MTV France Hits",
+        "epg": "https://epg.vimn.com/mtv_france_hits/xmltvlegal/fre/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTVHits.png"
+    }
 ]
