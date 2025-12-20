@@ -1,0 +1,14 @@
+[
+    {
+        "name": "MTV Hits",
+        "id": "Hits",
+        "epg": "https://epgs.vimn.com/mtv_hits_international/xmltvlegal/eng/", 
+        "logo": "https://static.elektamedia.com/ch/entch.png" 
+    }, 
+    {
+        "name": "MTV Live",
+        "id": "Live",
+        "epg": "https://epgs.vimn.com/mtv_live_international/xmltvlegal/eng/", 
+        "logo": "https://static.elektamedia.com/ch/entf.png"
+    } 
+]
