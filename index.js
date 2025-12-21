@@ -61,11 +61,15 @@ for (const channel of channels) {
         } 
     } 
 }
-
+const savePath = "./out" 
+const saveFile = "/guide.xml" 
 try {
 	let epg = builder.build(xmltv);
 	console.log("Intentando escribir a la ruta establecida"); 
-	fs.writeFileSync('./out/guide.xml', epg);
+	if (!fs.existsSync(savePath)) {
+		fs.mkdirSync(savePath, { recursive: true });
+	}
+	fs.writeFileSync('./out/guide.xml', epg); 
 	console.log("Escrito exitosamente");
 	} catch (err) {
 	console.error("Error al escribir: " + err); 
