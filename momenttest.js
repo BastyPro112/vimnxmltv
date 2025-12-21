@@ -19,12 +19,4 @@ console.log(datesXMLArray);
                  "Sec-Ch-Ua": '"Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"'}}) 
 .then(resp => console.log(resp.data))*/ 
 
-/*async function fetchtest() {
-    const resp = await fetch("https://juno.epg.elektamedia.com/api/Programme/40mediaSpA/Juno/today?channel=ENT_Channel");
-    console.log(resp.status); 
-    console.log(await resp.text())
-}
-fetchtest();*/ 
-/*fetch("https://juno.epg.elektamedia.com/api/Programme/40mediaSpA/Juno/today?channel=ENT_Channel") 
-.then(resp => console.log(resp.text()))*/ 
 
