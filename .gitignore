@@ -139,3 +139,6 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 normieepgexample.xml
+epg.xml 
+guide.xml 
+out/guide.xml
