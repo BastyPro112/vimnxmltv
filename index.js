@@ -12,8 +12,7 @@ const builder = new XMLBuilder({
 const parser = new XMLParser({
     ignoreAttributes: false, 
     attributeNamePrefix: "@_", 
-    parseAttributeValue: true, 
-    format: true 
+    parseAttributeValue: true  
 }); 
 
 const afterDays = 5; 
@@ -48,7 +47,7 @@ for (const channel of channels) {
         try {
             const epgXml = await axios.get(epgPath) 
 	    if (epgXml.status != 200) {
-		console.error(`Error en solicitud de ${epgpath}: ${epgxml.status}`);
+		console.error(`Error en solicitud de ${epgPath}: ${epgXml.status}`);
 		continue; 
 	    } 
 	    console.log("Parseando " + epgPath)
@@ -58,7 +57,15 @@ for (const channel of channels) {
 		console.error("Error al hacer una solicitud: " + e); 
         } 
     } 
-	try {                                                                  let epg = builder.build(xmltv);                            console.log("Intentando escribir a la ruta establecida")
-            fs.writeFileSync('./out/guide.xml', epg);                      console.log("Escrito exitosamente")                    } catch (err) {                                                console.error("Error al escribir: " + err);            }
-}})(); 
+}
+
+try {
+	let epg = builder.build(xmltv);
+	console.log("Intentando escribir a la ruta establecida"); 
+	fs.writeFileSync('./out/guide.xml', epg);
+	console.log("Escrito exitosamente");
+	} catch (err) {
+	console.error("Error al escribir: " + err); 
+	}
+})(); 
 
