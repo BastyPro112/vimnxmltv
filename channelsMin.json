@@ -1,0 +1,20 @@
+[
+    {
+        "name": "MTV Hits",
+        "id": "MTV Hits International",
+        "epg": "https://epgs.vimn.com/mtv_hits_international/xmltvlegal/eng/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTVHits.png" 
+    }, 
+    {
+        "name": "MTV Live",
+        "id": "MTV Live International HD",
+        "epg": "https://epgs.vimn.com/mtv_live_international/xmltvlegal/eng/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTVLive.png"
+    }, 
+    {
+        "name": "MTV 80s",
+        "id": "MTV 80s",
+        "epg": "https://epgs.vimn.com/mtv_80s/xmltvlegal/eng/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTV80s.png"
+    }
+]

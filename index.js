@@ -38,6 +38,9 @@ let xmltv = {
 for (const channel of channels) {
     xmltv.tv.channel.push({
 	"display-name": channel.name, 
+    "img": {
+        "@_src": channel.logo 
+    }, 
 	"@_id": channel.id
     });  
     for(let fi = beforeDays; fi <= afterDays; fi++) {
