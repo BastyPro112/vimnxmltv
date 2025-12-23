@@ -44,7 +44,7 @@ for (const channel of channels) {
 	"@_id": channel.id
     });  
     for(let fi = beforeDays; fi <= afterDays; fi++) {
-        let i = fi + 2; 
+        let i = fi + Math.abs(beforeDays); 
         let epgPath = channel.epg + datesXMLArray[i]; 
         console.log("Intentando hacer una solicitud a " + epgPath); 
         try {
