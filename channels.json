@@ -36,6 +36,12 @@
         "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/ClubMTV.png"
     }, 
     {
+        "name": "MTV Music UK",
+        "id": "MTV Music UK",
+        "epg": "https://epgs.vimn.com/mtv_music_uk/xmltvlegal/uk/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTVMusic.png"
+    }, 
+    {
         "name": "Paramount Network",
         "id": "Paramount Network North",
         "epg": "https://epgs.vimn.com/paramount_north/xmltvlegal/las/", 
@@ -88,5 +94,5 @@
         "id": "MTV France Hits",
         "epg": "https://epg.vimn.com/mtv_france_hits/xmltvlegal/fre/", 
         "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTVHits.png"
-    }
+    } 
 ]
