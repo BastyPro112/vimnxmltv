@@ -15,8 +15,8 @@ const parser = new XMLParser({
     parseAttributeValue: true  
 }); 
 
-const afterDays = 9; 
-const beforeDays = -6; 
+const afterDays = 7; 
+const beforeDays = -7; 
 let datesXMLArray = []; 
 
 for(let i = beforeDays; i <= afterDays; i++) {
