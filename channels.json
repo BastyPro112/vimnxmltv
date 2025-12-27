@@ -94,5 +94,11 @@
         "id": "MTV France Hits",
         "epg": "https://epg.vimn.com/mtv_france_hits/xmltvlegal/fre/", 
         "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/MTVHits.png"
+    }, 
+    {
+        "name": "Comedy Central Hungary",
+        "id": "Comedy Central Hungary",
+        "epg": "https://epgs.vimn.com/comedycentral_hungary/xmltvlegal/hun/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/ComedyCentral.png"
     } 
 ]
