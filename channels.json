@@ -100,5 +100,11 @@
         "id": "Comedy Central Hungary",
         "epg": "https://epgs.vimn.com/comedycentral_hungary/xmltvlegal/hun/", 
         "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/ComedyCentral.png"
+    }, 
+    {
+        "name": "Paramount Network France",
+        "id": "Paramount Channel France HD",
+        "epg": "https://epgs.vimn.com/paramount_channel_france_hd/xmltvlegal/fre/", 
+        "logo": "https://tonotolist.alwaysdata.net/m3u/imgs/ParamountNetwork.png"
     } 
 ]
